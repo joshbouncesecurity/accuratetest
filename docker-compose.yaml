@@ -21,4 +21,4 @@ services:
         image: bkimminich/juice-shop
         restart: unless-stopped
         ports:
-          - 3000:3000
+          - 3050:3000
