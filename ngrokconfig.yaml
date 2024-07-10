@@ -1,0 +1,10 @@
+authtoken: <<AUTHTOKEN>>
+version: 2
+console_ui: true
+tunnels:
+  webgoat:
+    proto: http
+    addr: 8080
+  juiceshop:
+    proto: http
+    addr: 3000
