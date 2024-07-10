@@ -15,8 +15,6 @@ services:
     webgoat:
         image: webgoat/webgoat-8.0
         restart: unless-stopped
-        basic_auth:
-          - "bob:bob"
         ports:
           - 8080:8080
     juiceshop:
@@ -24,5 +22,3 @@ services:
         restart: unless-stopped
         ports:
           - 3050:3000
-        basic_auth:
-          - "bob:bob"

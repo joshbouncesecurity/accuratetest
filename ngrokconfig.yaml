@@ -5,6 +5,10 @@ tunnels:
   webgoat:
     proto: http
     addr: 8080
+    basic_auth:
+      - "bob:password"
   juiceshop:
     proto: http
     addr: 3050
+    basic_auth:
+      - "bob:password"
